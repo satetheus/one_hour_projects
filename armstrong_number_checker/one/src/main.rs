@@ -1,7 +1,11 @@
 use std::env;
 
-
 fn main() {
+    /// This file can be ran like this after building:
+    ///
+    /// ```
+    /// ./target/release/one 153
+    /// ```
     let args: Vec<String> = env::args().collect();
     if args.len() > 1 {
         for arg in &args[1..] {
@@ -12,15 +16,18 @@ fn main() {
     }
 }
 
-
 fn check_armstrong_number(number: &String) -> bool {
+    /// The `check_armstrong_number` function accepts a borrowed string (`&String`), &
+    /// will return a bool (true if the number is an armstrong number, false if it isn't).
     let len = number.len() as u32;
 
-    let digits: i32 = number.chars().map(|n| (n.to_digit(10).expect("not a number") as i32).pow(len)).sum();
+    let digits: i32 = number
+        .chars()
+        .map(|n| (n.to_digit(10).expect("not a number") as i32).pow(len))
+        .sum();
 
     digits == number.parse::<i32>().expect("not a number")
 }
-
 
 #[cfg(test)]
 mod test {
