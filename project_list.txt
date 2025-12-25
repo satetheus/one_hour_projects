@@ -1,0 +1,37 @@
+anagram checker
+ascii 7 segment clock
+basic email validator
+character frequency counter
+check armstrong number
+check if anime is on crunchyroll
+countdown timer
+countdown timer (digital clock)
+currency converter
+date to day of week
+fizzbuzz
+generate fibonacci sequence
+get & remove item from list
+get best price from 4 sites (amazon, bestbuy, microcenter, newegg)
+get book prices from 3 sites (amazon, abebooks, ...)
+get games in common with steam friends
+get latest n videos from youtube channel
+get pokemon evolution level
+grade converter
+leap year checker
+mortgage calculator
+number guessing game
+palindrome checker
+prime number checker
+random joke generator (icanhazdadjoke.com api)
+random password generator
+simple alarm clock
+simple calculator
+simple interest calculator
+simple stopwatch
+simple tic-tac-toe
+string reversal
+sum of natural numbers
+temperature converter
+to-do list app
+vowel counter
+word counter
